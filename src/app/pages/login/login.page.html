@@ -1,0 +1,43 @@
+<ion-content>
+  <ion-title class="ion-text-center">
+    <h1>SkeletonAPP</h1>
+    <div>
+      <h6>Aquí comienza todo</h6>
+      <br />
+      <h3>Bienvenido!</h3>
+    </div>
+  </ion-title>
+
+  <div class="margen">
+    <ion-label position="floting"> Usuario </ion-label>
+    <ion-item>
+      <ion-input [(ngModel)]="username" type="text" fill="solid" required maxlength="8"></ion-input>
+    </ion-item>
+
+    <br />
+    <br />
+
+    <ion-label position="floating"> Password </ion-label>
+    <ion-item>
+      <ion-input [(ngModel)]="password" type="password" fill="solid" required maxlength="4"></ion-input>
+    </ion-item>
+
+    <ion-button class="ion-activatable ripple-parent rounded-rectangle ion-text-center custom-parent" expand="full" fill="outline" (click)="login()">
+      Ingresar
+      <ion-ripple-effect></ion-ripple-effect>
+    </ion-button>
+  </div>
+  <br />
+  <br />
+
+  <ion-content class="ion-text-center ion-margin-top">
+    <a href="#"> Crea tu cuenta gratis </a>
+  </ion-content>
+
+
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-title class="ion-text-start"> App desarrollada por L.Hurtado </ion-title>
+  </ion-toolbar>
+</ion-footer>

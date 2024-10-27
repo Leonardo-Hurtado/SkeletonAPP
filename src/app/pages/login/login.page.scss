@@ -1,0 +1,26 @@
+.ripple-parent {
+    display: center;
+    align-items: center;
+    justify-content: center;
+  
+    position: relative;
+    overflow: hidden;
+  
+    border: 1px solid #10095f;
+  
+    user-select: none;
+  }
+  
+  .rounded-rectangle {
+    width: relative;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .custom-parent {
+    color: #560057;
+  }
+
+  .margen{
+    padding: 20px;  /* Añade un espacio de 5px en todos los lados */
+  }
